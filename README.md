@@ -46,6 +46,16 @@ The data is structured as a list of vote events, each event consists of the data
 - `mes_dia`: month, day in which the voting took place
 - `detailed`: dictionary containing the name of politicians as keys, and a json object describing their party and vote as a value.
 
+# How to use it?
+
+- If you just want to use the date, clone this repo and go to the folder `dumps`, pick your file ^^.
+
+- If you want to generate a new dump: 
+
+   1. Create a virtualenv with python3.4
+   2. `pip install -r requirements.txt`
+   3. `python main.py`
+
 ## Contact
 
 dav.alejandro@gmail.com
