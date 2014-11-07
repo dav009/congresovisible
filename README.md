@@ -48,7 +48,7 @@ The data is structured as a list of vote events, each event consists of the data
 
 # How to use it?
 
-- If you just want to use the date, clone this repo and go to the folder `dumps`, pick your file ^^.
+- If you just want to use the data, clone this repo and go to the folder `dumps`, pick your file ^^.
 
 - If you want to generate a new dump: 
 
