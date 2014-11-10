@@ -14,7 +14,9 @@ Sadly they don't provide an API for this valuable information.  So this repo pro
 
 ## How is the data structured
 
-The data is structured as a list of vote events, each event consists of the data shown below:
+### Json Dump 
+
+Every line of the json dump corresponds to a json dictionary representing a voting event, every event contains the following data: 
 
 ```json
 [
@@ -45,6 +47,15 @@ The data is structured as a list of vote events, each event consists of the data
 - `ano`: Year in which the voting took place
 - `mes_dia`: month, day in which the voting took place
 - `detailed`: dictionary containing the name of politicians as keys, and a json object describing their party and vote as a value.
+
+Each line of the file should be a parsable json object.
+
+### CSV Data
+
+The csv data is split in two files:
+
+- `votes.csv`: contains the votes of politicians in sessions, each session is an identifier referencing a session description in `sessions.csv`
+- `sessions.csv`: contains a session description, date, and legislature.
 
 # How to use it?
 
