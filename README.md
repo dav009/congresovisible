@@ -67,6 +67,25 @@ The tsv data is split in two files:
    2. `pip install -r requirements.txt`
    3. `python main.py`
 
+## Examples
+
+### Clustering Senators
+
+ ![](https://d262ilb51hltx0.cloudfront.net/max/2000/1*EMhjnbqtFA5Qjf8wBWo54w.png)
+
+`clustering.r` : 
+   
+   - Set your working folder to the clustering sample: 
+   ```
+   setwd("path...to..repo/congresovisible/samples/senators_clustering/")
+   ```
+
+   - Run the clustering by doing: `source("clustering.r")`
+
+   - Note: please install the needed r packages.
+
+
+
 ## Contact
 
 dav.alejandro@gmail.com
