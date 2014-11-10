@@ -33,8 +33,8 @@ def toCSV(path_to_output_folder, path_to_input_json):
 
 		lines_sessions.append(session)
 
-	votes_output_file = codecs.open(path_to_output_folder+"/votes.csv", 'w', 'utf-8')
-	session_output_file = codecs.open(path_to_output_folder+"/session.csv", 'w', 'utf-8')
+	votes_output_file = codecs.open(path_to_output_folder+"/votes.tsv", 'w', 'utf-8')
+	session_output_file = codecs.open(path_to_output_folder+"/session.tsv", 'w', 'utf-8')
 
 
 	for line in lines_sessions:

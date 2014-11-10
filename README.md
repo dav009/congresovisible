@@ -50,12 +50,12 @@ Every line of the json dump corresponds to a json dictionary representing a voti
 
 Each line of the file should be a parsable json object.
 
-### CSV Data
+### TSV Data
 
-The csv data is split in two files:
+The tsv data is split in two files:
 
-- `votes.csv`: contains the votes of politicians in sessions, each session is an identifier referencing a session description in `sessions.csv`
-- `sessions.csv`: contains a session description, date, and legislature.
+- `votes.tsv`: contains the votes of politicians in sessions, each session is an identifier referencing a session description in `sessions.csv`
+- `sessions.tsv`: contains a session description, date, and legislature.
 
 # How to use it?
 
